@@ -1,20 +1,28 @@
 .body {
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 .container {
-    width: 90vw;
+    width: 90%;
     margin: auto;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin:15px;
 }
 
 .japan {
-    content: "";
     background-color: #fff;
-    width: 270px;
-    height: 170px;
+}
+
+.flag {
+    content: "";
+    width: 300px;
+    height: 180px;
     border: 1px solid grey;
 }
 
@@ -37,4 +45,52 @@
     text-align: center;
     font-size: xx-large;
     margin-bottom: 10px;
+}
+
+.item {
+    height: 100%;
+    width: 100px;
+    content: "";
+}
+
+.column {
+    height: 60px;
+    content: "";
+    width: 100%;
+}
+
+
+.green {
+    background-color: seagreen;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.flex__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-25 {
+    height: 25%;
 }
