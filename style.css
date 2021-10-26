@@ -1,7 +1,9 @@
-.body {
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    background-image: url("img/background.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -12,18 +14,22 @@
 }
 
 .card {
-    margin:15px;
+    margin: 40px;
+    position: relative;
 }
 
-.japan {
-    background-color: #fff;
+img {
+    width: 100%;
+    height: 100%;
 }
+
 
 .flag {
     content: "";
     width: 300px;
     height: 180px;
     border: 1px solid grey;
+    box-shadow: 5px 6px 15px -10px #000000;
 }
 
 
@@ -35,20 +41,46 @@
     height: 100px;
 }
 
-.flex__center {
+.name {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-size: 25px;
+    color: darkslategrey;
+    text-align: center;
+    width: 50%;
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.title__flag {
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
     text-align: center;
     font-size: xx-large;
-    margin-bottom: 10px;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 12px;
+    position: absolute;
+    top: 150px;
+    left: 32px;
 }
 
 .item {
+    width: 100%;
     height: 100%;
+}
+
+.row {
     width: 100px;
     content: "";
 }
@@ -61,30 +93,40 @@
 
 
 .green {
-    background-color: seagreen;
+    background-color: #147840;
 }
 
 .white {
-    background-color: white;
+    background-color: #fbeaea;
 }
 
 .red {
-    background-color: red;
+    background-color: #e11111;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0f0fdf;
 }
-
 
 .yellow {
-    background-color: yellow;
+    background-color: #e9d700;
 }
 
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
 
 .flex__column {
     display: flex;
     flex-direction: column;
+}
+
+.h-100 {
+    height: 100%;
 }
 
 .h-50 {
@@ -93,4 +135,61 @@
 
 .h-25 {
     height: 25%;
+}
+
+
+.w-100 {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+
+.w-30 {
+    width: 30%;
+}
+
+
+.w-25 {
+    width: 25%;
+}
+
+.h-px-60 {
+    height: 60px;
+}
+
+.w-px-50 {
+    width: 50px;
+}
+
+.legend {
+    position: absolute;
+}
+
+.legend__center {
+    top: 68px;
+    left: 125px;
+}
+
+.legend__left {
+    top: 60px;
+    left: 35px;
 }
