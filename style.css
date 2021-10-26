@@ -1,0 +1,40 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex: wrap;
+}
+
+.japan {
+    content: "";
+    background-color: #fff;
+    width: 270px;
+    height: 170px;
+    border: 1px solid grey;
+}
+
+
+.circle {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__flag {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
